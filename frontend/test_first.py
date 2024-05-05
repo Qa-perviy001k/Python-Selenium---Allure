@@ -5,7 +5,7 @@ import pytest
 from selenium.webdriver.common.by import By
 
 
-url = "https://testqastudio.me/"
+url = "https://test"
 
 def test_product_view_sku(browser):
     """
