@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 
-url = "https://testqastudio.me"  # Отступы здесь важны!
+url = "https://test"  # Отступы здесь важны!
 
 @pytest.fixture(scope='session')
 def browser():
