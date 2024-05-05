@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-url = "https://testqastudio.me"  # Отступы здесь важны!
+url = "https://test"  # Отступы здесь важны!
 
 def test_browser(browser: WebDriver):
     """
